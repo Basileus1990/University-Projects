@@ -1,0 +1,28 @@
+﻿  main.cpp
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Menu.h(50,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Menu.h(54,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Menu.h(55,1): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Menu.h(70,1): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Menu.h(74,1): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Car.h(45,13): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Car.h(49,13): warning C4244: "-=": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Car.h(53,13): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Car.h(57,13): warning C4244: "-=": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(128,25): warning C4244: "+=": konwersja z "double" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(206,1): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(206,1): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(211,1): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(222,64): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(228,52): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(232,52): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(236,52): warning C4267: "+=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(226,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(230,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\Game.h(234,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\main.cpp(28,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Trwa generowanie kodu
+  0 of 50 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  szablon2vs19.vcxproj -> C:\Users\Programowanie\Desktop\Studia\PP\SpyHunter\x64\Release\SpyHunter.exe

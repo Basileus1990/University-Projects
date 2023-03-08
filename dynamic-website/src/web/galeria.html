@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head lang="pl-PL">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        
+        <meta name="description" content="Strona o samorozwoju. O tym jak zacząć i z elementami ułatwiającymi rozpoczęcie tej pięknej przygody"> 
+        <title>Samorozwój</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/nav.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/magnific-popup.css">
+        <link rel="stylesheet" href="styles/gallery.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="scripts/jquery.magnific-popup.min.js" defer></script>
+        <script src="scripts/gallery.js" defer></script>
+    </head>
+
+    <body>
+        <div class="website-body">
+            <header id="myHeader">
+                <h1>Samorowzój<br>Droga do lepszego życia</h1>
+            </header>
+
+            <nav>
+                <label class="menu-button" for="menu-button-checkbox">
+                    <svg height='40' width='40'>
+                        <line x1='0' y1='10' x2='40' y2='10' style='stroke:rgb(255, 255, 255);stroke-width:5' />
+                        <line x1='0' y1='20' x2='40' y2='20' style='stroke:rgb(255, 255, 255);stroke-width:5' />
+                        <line x1='0' y1='30' x2='40' y2='30' style='stroke:rgb(255, 255, 255);stroke-width:5' />
+                     </svg>
+                </label>
+                <input id="menu-button-checkbox" type="checkbox" name="menu">
+                <ul class="nav-container">
+                    <li class="nav-button"><a href="index.html">Strona główna</a></li>
+                    <li class="nav-button active"><a href="#myHeader">Galeria</a></li>
+                    <li class="nav-button dropdown" tabindex="0">
+                        Więcej
+                        <ul class="dropdown-items">
+                            <li class="nav-button"><a href="kontakt.html">Kontakt</a></li>
+                            <li class="nav-button"><a href="goal-tracker.html">Kalendarzyk</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="website-content">
+                <div class="gallery-content">
+                    <h2>Galeria plakatów dobrych nawyków</h2>
+                    <div class="popup-gallery">
+                        <a href="../images/nawyk1.jpg" title="Zdrowe nawyki"><img src="../images/nawyk1.jpg" width="175" height="150" alt="Zdrowe nawyki"></a>
+                        <a href="../images/nawyk2.jpg" title="Zdrowe nawyki"><img src="../images/nawyk2.jpg" width="175" height="150" alt="Zdrowe nawyki"></a>
+                        <a href="../images/nawyk3.png" title="Zdrowe nawyki"><img src="../images/nawyk3.png" width="175" height="150" alt="Zdrowe nawyki"></a>
+                        <a href="../images/nawyk4.jpg" title="Zdrowe nawyki"><img src="../images/nawyk4.jpg" width="175" height="150" alt="Zdrowe nawyki"></a>
+                        <a href="../images/nawyk5.jpg" title="Zdrowe nawyki"><img src="../images/nawyk5.jpg" width="175" height="150" alt="Zdrowe nawyki"></a>
+                        <a href="../images/nawyk6.jpg" title="Zdrowe nawyki"><img src="../images/nawyk6.jpg" width="175" height="150" alt="Zdrowe nawyki"></a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <a class="back-to-top" href="#myHeader">Powrót do góry</a>
+                <p class="copyright">Copyright 2022 Paweł Bogdanowicz</p>
+            </footer>
+        </div>
+    </body>
+</html>

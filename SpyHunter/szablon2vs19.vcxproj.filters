@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="CarAI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Red.bmp">
+      <Filter>Photos</Filter>
+    </Image>
+    <Image Include="Blue.bmp">
+      <Filter>Photos</Filter>
+    </Image>
+    <Image Include="cs8x8.bmp">
+      <Filter>Photos</Filter>
+    </Image>
+    <Image Include="Green.bmp">
+      <Filter>Photos</Filter>
+    </Image>
+    <Image Include="images\Tree1.bmp">
+      <Filter>Photos</Filter>
+    </Image>
+    <Image Include="images\Tree2.bmp">
+      <Filter>Photos</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Photos">
+      <UniqueIdentifier>{4e04e35f-63ac-4c27-aa9b-d2ce6b6b1150}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,133 @@
+.no-js-banner {
+  color: rgb(192, 0, 0);
+}
+
+.important-paragraph {
+  font-size: 1.1rem;
+}
+
+.goals {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 75px;
+}
+
+.goals li {
+  flex-basis: 200px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  margin: 8px;
+  margin-top: 30px;
+  padding: 5px;
+
+  border: black solid 2px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  background: linear-gradient(
+    0deg,
+    rgb(180, 180, 180) 0%,
+    rgb(235, 235, 235) 100%
+  );
+}
+
+.goals h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  white-space: normal;
+
+  text-shadow: 2px 2px 3px rgb(117, 117, 117);
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.days span {
+  display: block;
+  border: 3px grey solid;
+  border-radius: 5px;
+  background-color: rgb(232, 232, 232);
+  padding: 5px;
+  margin-bottom: 1rem;
+
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(0, 81, 255);
+}
+
+.days label {
+  font-size: 1.3rem;
+}
+
+.goal-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.goal-buttons button {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+
+  box-shadow: 1px 1px 4px rgb(117, 117, 117);
+  border: 2px solid rgb(99, 99, 99);
+  border-radius: 5px;
+}
+
+.close-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+#goal-adder-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#goal-adder-dialog input {
+  width: 99%;
+  height: 50%;
+  font-size: 1.2rem;
+}
+
+#goal-adder-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 3rem;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  width: 70px;
+  height: 70px;
+  border: solid black 1px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#goal-adder-button:hover {
+  background-color: rgb(233, 233, 233);
+}
