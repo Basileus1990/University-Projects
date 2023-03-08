@@ -1,0 +1,26 @@
+.logreg {
+  display: flex;
+  justify-content: center;
+}
+
+.logreg form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 2rem;
+  padding: 1rem;
+
+  border: black solid 2px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  background: linear-gradient(
+    0deg,
+    rgb(180, 180, 180) 0%,
+    rgb(235, 235, 235) 100%
+  );
+}
+
+.logreg form h3 {
+  margin: 0;
+  text-align: center;
+}
